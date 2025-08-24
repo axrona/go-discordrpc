@@ -22,6 +22,7 @@ func main() {
 
 	// 4. Set Rich Presence activity
 	if err := c.SetActivity(client.Activity{
+		Type:       0, // 0=Playing, 1=Streaming, 2=Listening, 3=Watching
 		State:      "Playing Chess with Ai Hoshino",
 		Details:    "If you like Ai Hoshino, we are 🤝",
 		LargeImage: "largeimageid",
