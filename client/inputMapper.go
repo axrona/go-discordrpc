@@ -6,6 +6,8 @@ import (
 
 // Activity holds the data for discord rich presence
 type Activity struct {
+	// Activity Type; 0=Playing, 1=Streaming, 2=Listening, 3=Watching
+	Type int
 	// What the player is currently doing
 	Details string
 	// The user's current party status
@@ -74,6 +76,7 @@ func mapActivity(activity *Activity) *PayloadActivity {
 			SmallImage: activity.SmallImage,
 			SmallText:  activity.SmallText,
 		},
+		Type: activity.Type,
 	}
 
 	if activity.Timestamps != nil && activity.Timestamps.Start != nil {
