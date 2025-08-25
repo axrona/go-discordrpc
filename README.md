@@ -15,7 +15,7 @@ It provides a simple, cross-platform way to set custom activities, buttons, time
 You can install `go-discordrpc` using `go get`:
 
 ```bash
-go get github.com/axrona/go-discordrpc/client
+go get github.com/axrona/go-discordrpc/client@v1.1.0-1
 ```
 
 ---
