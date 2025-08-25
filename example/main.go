@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xeyossr/go-discordrpc/client"
+	"github.com/axrona/go-discordrpc/client"
 )
 
 func main() {
@@ -40,7 +40,7 @@ func main() {
 		Buttons: []*client.Button{
 			{
 				Label: "GitHub",
-				Url:   "https://github.com/xeyossr/go-discordrpc",
+				Url:   "https://github.com/axrona/go-discordrpc",
 			},
 		},
 	}); err != nil {

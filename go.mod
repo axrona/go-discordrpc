@@ -1,4 +1,4 @@
-module github.com/xeyossr/go-discordrpc
+module github.com/axrona/go-discordrpc
 
 go 1.17
 

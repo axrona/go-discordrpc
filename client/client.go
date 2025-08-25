@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/xeyossr/go-discordrpc/internal/ipc"
+	"github.com/axrona/go-discordrpc/internal/ipc"
 )
 
 // Client represents a single Discord RPC connection
