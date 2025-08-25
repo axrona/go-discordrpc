@@ -67,7 +67,7 @@ func main() {
 		Buttons: []*client.Button{
 			{
 				Label: "GitHub",
-				Url:   "https://github.com/xeyossr/go-discordrpc",
+				Url:   "https://github.com/axrona/go-discordrpc",
 			},
 		},
 	}); err != nil {
